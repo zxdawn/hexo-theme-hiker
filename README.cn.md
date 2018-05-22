@@ -1,11 +1,11 @@
 # Hiker
 
-[![Build Status](https://travis-ci.org/iTimeTraveler/hexo-theme-hiker.svg?branch=master)](https://travis-ci.org/iTimeTraveler/hexo-theme-hiker)		[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/iTimeTraveler/hexo-theme-hiker/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/iTimeTraveler/hexo-theme-hiker.svg?branch=master)](https://travis-ci.org/iTimeTraveler/hexo-theme-hiker)		[![Gitter](https://camo.githubusercontent.com/079d8764b5eebffbb7158fb375df0959029ab2c3/68747470733a2f2f6261646765732e6769747465722e696d2f6865786f2d7468656d652d696e6469676f2f4c6f6262792e737667)](https://gitter.im/hexo-theme-hiker/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
 
 An attractive, exquisite theme for [Hexo]. named "Hiker", short for "HikerNews".  
 
-[**☞ 在线预览**](https://itimetraveler.github.io/hexo-theme-hiker/)  |  [**✎ Hiker English Documentation**](https://github.com/iTimeTraveler/hexo-theme-hiker/blob/master/README.md)
+[**☞ 在线预览**](https://itimetraveler.github.io/hexo-theme-hiker/)  |  [**Hiker问题交流群**](https://gitter.im/hexo-theme-hiker/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
 
 ![Desktop Preview](https://itimetraveler.github.io/hexo-theme-hiker/2016/10/24/Hiker%E4%B8%BB%E9%A2%98%E9%A2%84%E8%A7%88/homepage-index.png)
@@ -171,6 +171,16 @@ All of them are enabled by default. You can edit them in `widget` setting.
 ![](https://github.com/iTimeTraveler/hexo-theme-hiker/blob/master/source/preview/donation-btn.png)
 
 每篇文章最后显示打赏按钮，目前仅支持微信支付和支付宝两种打赏方式。您可以在文件 `hiker/_config.yml` 中配置您的微信、支付宝付款二维码图片的URL:
+
+### 主页文章摘要
+![](https://github.com/iTimeTraveler/hexo-theme-hiker/blob/master/source/preview/preview-abstract.png)   
+
+主页文章默认开启摘要模式
+```yml
+# 开启主页摘要
+post_excerpt: true
+
+```
 
 
 ```yml
